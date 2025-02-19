@@ -14,6 +14,8 @@ Informations personnelles : Récupère les informations d'un habitant spécifiqu
 Emails communautaires : Retourne les adresses email de tous les habitants d'une ville.
 
 API Endpoints
+```bash
+git clone https://votre-repo-url.git
 GET /firestation?stationNumber=<station_number>
 GET /childAlert?address=<address>
 GET /phoneAlert?firestation=<firestation_number>
@@ -21,7 +23,7 @@ GET /fire?address=<address>
 GET /flood/stations?stations=<list_of_station_numbers>
 GET /personinfo?firstName=<firstName>&lastName=<lastName>
 GET /communityEmail?city=<city>
-
+```
 Technologies utilisées
 Java
 Spring Boot
@@ -29,11 +31,13 @@ Maven
 Installation
 
 Clonez le dépôt 
+```bash
 git clone https://github.com/votre-utilisateur/firestation-management.git
-
+```
 Accédez au répertoire du projet 
-
+```bash
 cd firestation-management
+```
 
 Installez les dépendances 
 
