@@ -14,8 +14,8 @@ Informations personnelles : Récupère les informations d'un habitant spécifiqu
 Emails communautaires : Retourne les adresses email de tous les habitants d'une ville.
 
 API Endpoints
+
 ```bash
-git clone https://votre-repo-url.git
 GET /firestation?stationNumber=<station_number>
 GET /childAlert?address=<address>
 GET /phoneAlert?firestation=<firestation_number>
@@ -24,13 +24,12 @@ GET /flood/stations?stations=<list_of_station_numbers>
 GET /personinfo?firstName=<firstName>&lastName=<lastName>
 GET /communityEmail?city=<city>
 ```
-Technologies utilisées
+#Technologies utilisées : 
 Java
 Spring Boot
 Maven
-Installation
 
-Clonez le dépôt 
+#Clonez le dépôt : 
 ```bash
 git clone https://github.com/votre-utilisateur/firestation-management.git
 ```
