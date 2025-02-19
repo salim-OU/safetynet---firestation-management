@@ -39,8 +39,13 @@ cd firestation-management
 ```
 
 Installez les dépendances 
+```bash
 
 mvn install
+```
 
 Exécution
+```bash
+
 mvn spring-boot:run
+```
