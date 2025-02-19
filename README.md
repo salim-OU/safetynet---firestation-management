@@ -24,12 +24,12 @@ GET /flood/stations?stations=<list_of_station_numbers>
 GET /personinfo?firstName=<firstName>&lastName=<lastName>
 GET /communityEmail?city=<city>
 ```
-#Technologies utilisées : 
+Technologies utilisées : 
 Java
 Spring Boot
 Maven
 
-#Clonez le dépôt : 
+Clonez le dépôt : 
 ```bash
 git clone https://github.com/votre-utilisateur/firestation-management.git
 ```
